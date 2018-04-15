@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<a href="#" class="icon"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+			<img src="images/logo.png" alt="logo" class="logo">
+			<nav class="navbar">
+				<a href="#contact">CONTACT</a>
+				<a href="#chief">OUR CHIEFS</a>
+				<a href="#gallery">GALLERY</a>
+				<a href="#reservation">RESERVATION</a>
+				<a href="#menu">MENU</a>
+				<a href="#about">ABOUT US</a>
+				<a href="#home">HOME</a>
+			</nav>
+		</div>
+	</header>
+
+	<section class="one" id="#home">
+		<div class="slider">
+			<img src="images/slider3.jpeg" id="mypic">
+		
+			<div class="buttons">
+				<span id="btn" onclick='fun()'></span>
+				<span id="btn" onclick="fun2()"></span>
+				<span id="btn" onclick="fun3()"></span>
+			</div>
+		
+
+		<div class="text">
+			<h1 class="delicious">Delicious</h1>
+			<h1>Spicy Malasas</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua</p>
+			<button>BOOK A TABLE</button>
+		</div>
+	</section>
+
+
+
+
+	<section class="two" id="about">
+			<div class="text">
+				<h2>Discover</h2>
+				<h1>ABOUT US</h1>
+			</div>
+			<div class="flex">
+
+				<div class="box">
+					<img src="images/about-us.png" alt="about-us">
+				</div>
+
+				<div class="box1">
+					<div class="text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						</ul>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias est quod reprehenderit, quibusdam nam qui, quam magnam.</p>
+					</div>
+				</div>
+			</div>
+	</section>
+
+
+
+
+
+
+
+
+	<section class="three" id="menu">
+		<div class="wrapper">
+			<div class="flex">
+				<div class="box">
+					<h4>Fresh</h4>
+					<p></p>
+					<h2>Breakfast Items</h2>
+				</div>
+
+				<div class="box">
+					<h4>Delicious</h4>
+					<p></p>
+					<h2>Lunch Items</h2>
+				</div>
+
+				<div class="box">
+					<h4>Hot</h4>
+					<p></p>
+					<h2>Coffee Items</h2>
+				</div>
+
+				<div class="box">
+					<h4>Satisfied</h4>
+					<p></p>
+					<h2>Customers</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+	<section class="four" id="reservation">
+		<div class="text">
+			<h3 class="make">Make A</h3>
+			<h4>Reservation</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quidem autem iusto, perspiciatis, amet, quaerat blanditiis ducimus eius recusandae nisi aut totam alias consectetur et.</p>
+		</div>
+		<div class="flex">
+			<div class="box1">
+				<form action="">
+					<input type="text" placeholder="Full Name">
+					<input type="email" placeholder="Email">
+					<input type="text" placeholder="Phone number">
+					<select name="" id="">
+						<option value="persom">How many?</option>
+						<option value="persom">1 Person</option>
+						<option value="persom">2 Person</option>
+						<option value="persom">3 Person</option>
+						<option value="persom">4 Person</option>
+						<option value="persom">5 Person</option>
+						<option value="persom">6 Person</option>
+						<option value="persom">7 Person</option>
+						<option value="persom">8 Person</option>
+						<option value="persom">9 Person</option>
+						<option value="persom">10 Person</option>
+					</select>
+					<input type="text" placeholder="Date">
+					<textarea name="" id=""></textarea>
+					<input type="submit" value="Make Reservation">
+				</form>
+			</div>
+
+			<div class="box2">
+				<div class="text">
+					<h3>Opening Hours</h3>
+					<hr class="line">
+
+					<div class="text1">
+						<h5>MONDAY & TUESDAY</h5>
+						<h6>9:00 AM - 4:00 PM</h6>
+					</div>
+
+					<div class="text1">
+						<h5>WEDNESDAY & THURSDAY</h5>
+						<h6>9:00 AM - MIDNIGHT</h6>
+					</div>
+
+					<div class="text1">
+						<h5>FRIDAY & SATURDAY</h5>
+						<h6>9:00 AM - MIDNIGHT</h6>
+					</div>
+
+					<div class="text1">
+						<h5>SUNDAY</h5>
+						<h6>9:00 AM - 11:00 PM</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="five" id="gallery">
+		<div class="wrapper">
+			<div class="text">
+				<h3 class="discover">Discover</h3>
+				<h3>Our Gallery</h3>
+			</div>
+
+			<div class="flex">
+				<div class="box">
+					<img src="images/1.jpg" alt="one">
+					<div class="plus"><img src="images/plus.png" alt=""></div>
+				</div>
+
+				<div class="box">
+					<img src="images/2.jpg" alt="one">
+					<div class="plus"><img src="images/plus.png" alt=""></div>
+				</div>
+
+				<div class="box">
+					<img src="images/3.jpg" alt="one">
+					<div class="plus"><img src="images/plus.png" alt=""></div>
+				</div>
+
+				<div class="box">
+					<img src="images/4.jpg" alt="one">
+					<div class="plus"><img src="images/plus.png" alt=""></div>
+				</div>
+
+				<div class="box">
+					<img src="images/5.jpg" alt="one">
+					<div class="plus"><img src="images/plus.png" alt=""></div>
+				</div>
+
+				<div class="box">
+					<img src="images/6.jpg" alt="one">
+					<div class="plus"><img src="images/plus.png" alt=""></div>
+				</div>
+
+				<div class="box">
+					<img src="images/7.jpg" alt="one">
+					<div class="plus"><img src="images/plus.png" alt=""></div>
+				</div>
+
+				<div class="box">
+					<img src="images/8.jpg" alt="one">
+					<div class="plus"><img src="images/plus.png" alt=""></div>
+				</div>
+
+				<div class="box">
+					<img src="images/9.jpg" alt="one">
+					<div class="plus"><img src="images/plus.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="six">
+		<div class="text">
+			<h2>Testimonials</h2>
+			<h3>What Customers Say</h3>
+		</div>
+		<div id="text1">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>-David Muller</p>
+		<ul>
+			<li onclick="lorem()"></li>
+			<li onclick="lorem()"></li>
+			<li onclick="lorem()"></li>
+		</ul>
+	</section>
+
+
+	<section class="seven" id="chief">
+		<div class="wrapper">
+			<div class="text">
+				<h2>Our Professionals</h2>
+				<h3>MASTER CHEFS</h3>
+			</div>
+
+			<div class="flex">
+				<div class="box">
+					<img src="images/chef-1.jpg" alt="head chief">
+					<div class="text">
+						<h4>Simon Jonson</h4>
+						<p>Head Chief</p>
+					</div>
+
+					<div class="social">
+						<div class="network">
+							<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="box">
+					<img src="images/chef-2.jpg" alt="head chief">
+					<div class="text">
+						<h4>Kelly Wenzel</h4>
+						<p>Pizza Chief</p>
+					</div>
+
+					<div class="social">
+						<div class="network">
+							<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="box">
+					<img src="images/chef-3.jpg" alt="head chief">
+					<div class="text">
+						<h4>Greg Hong</h4>
+						<p>Gril Chief</p>
+					</div>
+
+					<div class="social">
+						<div class="network">
+							<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="box">
+					<img src="images/chef-4.jpg" alt="head chief">
+					<div class="text">
+						<h4>Marty Fukuda</h4>
+						<p>Burger Chief</p>
+					</div>
+
+					<div class="social">
+						<div class="network">
+							<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+							<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="eight" id="contact">
+		<div class="wrapper">
+			<div class="text">
+				<h3>Get In Touch</h3>
+				<h4>Contact Us</h4>
+			</div>
+			<div class="flex">
+
+				<div class="box">
+					<form action="">
+						<label for="name">Your Name</label>
+						<input type="text" name="name" placeholder="Name">
+
+						<label for="email">Email Adress</label>
+						<input type="text" name="email" placeholder="Email">
+
+						<label for="subject">Subject</label>
+						<input type="text" name="subject" placeholder="Subject">
+
+						<label for="message">Message</label>
+						<textarea name="message" placeholder="Message"></textarea>
+
+						<input type="submit" value="Send Message">
+					</form>
+				</div>
+
+
+				<div class="box1">
+					<h3>Office Address</h3>
+					<hr class="line">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia temporibus corporis ea non consequatur porro corrupti hic voluptatibus assumenda, doloribus.</p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i> (850) 457 6688</p>
+					<p><i class="fa fa-envelope-o" aria-hidden="true"></i> contact@markups.io</p>
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i> 368 St. Panama City, Florida, USA</p>
+					<h3>Open Hours</h3>
+					<hr class="line">
+					<p>Monday - Friday 9.00 am to 12 pm</p>
+					<p>Saturday 9.00 am to 10 pm</p>
+					<p>Sunday 10.00 am to 12 pm</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="nine">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13794.843921929712!2d-85.64828400000002!3d30.188249000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2320479d70eb6202!2sDillard&#39;s!5e0!3m2!1ssr!2sbd!4v1522003553800" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</section>
+
+
+	<footer>
+		<div class="icons">
+			<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+			<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+			<i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+			<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+			<i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
+			<p>© Copyright David Kljestan. All right reserved.</p>
+		</div>
+	</footer>
+
+<button onclick="topFunction()" id="myBtn"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
+	<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
